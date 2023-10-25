@@ -1,0 +1,20 @@
+.no-notes-container{
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-options-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.add-todo-img{
+    height: 75px;
+}
