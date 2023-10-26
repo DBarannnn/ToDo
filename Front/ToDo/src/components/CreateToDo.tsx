@@ -8,7 +8,7 @@ export default function CreateNote(){
                 <h2>Create your ToDo</h2>
             
                 <label htmlFor="heading">Heading</label>
-                <input type="textbox" name="heading" id="todo-heading" placeholder="Your heading"></input>
+                <input type="textbox" name="title" id="todo-heading" placeholder="Your heading"></input>
 
                 <label htmlFor="todo-text">Describe your ToDo</label>
                 <textarea name="todoText" id="todo-text" placeholder="Do the homework"></textarea>

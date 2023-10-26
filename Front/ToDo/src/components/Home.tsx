@@ -1,9 +1,18 @@
 import React from "react"
 import "./Home.css"
 import { Link } from "react-router-dom"
+import axios from "axios"
 
 export default function Home(){
     const[notes, setNotes] = React.useState(null)
+
+
+    axios.get('https://localhost:7267/api/ToDo').then(resp => {
+
+    console.log(resp.data);
+    });
+
+
     return(
         <>
         {
