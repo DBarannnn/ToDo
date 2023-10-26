@@ -6,7 +6,7 @@ export default function Header(){
         
         <header>
             <img src="/src/assets/collapse.png" className="collapse-btn"/>
-            <h1>ToDo App</h1>
+            <Link to="/"><h1>ToDo App</h1></Link>
             <img src="https://www.hollywoodreporter.com/wp-content/uploads/2017/02/thr_ryan_gosling_151113_thr_bigshort_rt_s02_ryangosling_0305.jpg?w=1296"
              className="user-img"/>
         </header>

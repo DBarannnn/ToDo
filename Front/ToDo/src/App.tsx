@@ -8,13 +8,14 @@ import {
 import './App.css'
 import Layout from './common/Layout'
 import Home from './components/Home'
+import CreateToDo from './components/CreateToDo'
 
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route index element={<Home />}/>
-      <Route path='todo/create' element={<p>Create your todo</p>}/>
+      <Route path='todo/create' element={<CreateToDo/>}/>
     </Route>
   ))
 
